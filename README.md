@@ -2,4 +2,5 @@
 OOPS and Modern C++ mini project
 
 Author : 
-Jeevan Dilip Thote
+Jeevan Dilip Thote 
+jeevathote29@gmail.com 
