@@ -1,0 +1,29 @@
+Problem Statement:-
+->   Create a Tourist vehicle class
+
+    number--------------------> AlphaNumeric
+    type----------------------> Tourist Vehicle Type
+    seat_count----------------> Integer
+    permit--------------------> reference_wrapper of class Permit
+    per_hour_boooking_charges-> float
+
+-> Create a Permit class
+    serial_number-------------> AlphaNumeric
+    permit_type---------------> Enum of permit types
+    permit_duration_left------> Integer
+
+-> Create Enum class of Tourist Vehicle Type
+    CAB, 
+    BUS,
+    BIKE
+
+-> Create Enum class of Permit Type
+    LEASE,
+    OWNED
+
+-> Functionalities 
+    1. ObjectContainer / dataContainer 
+    2. find Average pr hr. booking charges 
+    3. First N data Objects (N provided by user)
+    4. Pointer of objet having maximum per_hour_boooking_charges
+    5. Return Container having seats more than 4 and permit type :LEASE
